@@ -3,9 +3,12 @@ body {
 }
 
 .em-text {
-    color: #1cca98 !important;
+    color: #1caa98 !important;
 }
 
+.col-md-4 {
+    margin-bottom: 20px;
+}
 
 /*JUMBOTRON*/
 
@@ -27,19 +30,19 @@ body {
     margin-bottom: 40px;
 }
 
-.jumbotron img.app-btn {
+.jumbotron .app-btn {
     width: 40%;
     margin-right: 30px;
 }
 
-.jumbotron img.showcase-image {
+.jumbotron .showcase-image {
     width: 75%;
 }
 
 
 /*SECTION*/
 
-img.demo {
+.demo {
     width: 100%;
     padding: 3px;
     border: 1px solid gray;
@@ -60,6 +63,11 @@ section {
     font-size: 22px;
     list-style: none;
     line-height: 2.0em;
+}
+
+#feature ul {
+    padding: 0;
+    margin: 0;
 }
 
 #title-bar {
