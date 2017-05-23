@@ -13,13 +13,12 @@ body {
 /*JUMBOTRON*/
 
 .jumbotron {
-    background-image: url(/resourses/img/site_showcase_bg.jpg);
+    background-image: url(../img/site_showcase_bg.jpg);
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
     color: white;
     height: 598px;
-    overflow: none;
 }
 
 .jumbotron h1 {
